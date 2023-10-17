@@ -28,6 +28,7 @@
   <router-view></router-view>
 </template>
 
+<<<<<<< HEAD
 <script>
 import { ref } from 'vue'
 
@@ -44,3 +45,8 @@ export default {
   }
 }
 </script>
+=======
+
+
+
+>>>>>>> 3ba9892e64943fced9161d037a243d5b04cd67a6
