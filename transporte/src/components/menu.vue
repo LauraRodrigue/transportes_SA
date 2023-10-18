@@ -63,11 +63,6 @@
 
         </q-layout>
 
-
-        <div class="menus">
-
-        </div>
-
     </div>
 </template>
   

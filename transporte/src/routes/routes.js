@@ -16,6 +16,7 @@ const routes = [
     path: "/menu",
     component: menu,
     children: [
+      { path: "", component: home },
       { path: "/home", component: home },
       { path: "/buses", component: buses },
       { path: "/cliente", component: cliente },
