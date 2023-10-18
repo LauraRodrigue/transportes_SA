@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import{router} from "./routers/routers.js"
+import{router} from "./routes/routes.js"
 import { Quasar } from 'quasar'
 import { createPinia } from 'pinia'
 import './style.css'

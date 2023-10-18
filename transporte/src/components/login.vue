@@ -32,7 +32,7 @@
           <q-toggle v-model="accept" label="I accept the license and terms" />
 
           <div class="text-center">
-            <q-btn label="Ingresar" type="submit" color="orange-10" />
+            <router-link to="/menu"><q-btn  label="Ingresar" type="submit" color="orange-10" /></router-link>
           </div>
         </q-form>
       </q-card-section>
