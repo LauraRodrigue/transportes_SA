@@ -1,7 +1,11 @@
 <template>
-    <div class="column items-center">
+    
+    <div class="column absolute-center">
 
-    <q-card class="my-card bg-amber-4 text-black"  style="height: 300px; width: 45%;">
+    <q-card class="my-card bg-orange-2 text-black"  style="height: 410px; width: 350px;">
+      <q-card-section class="column flex-center">
+        <q-avatar size="100px" font-size="52px" color="orange-10" text-color="white" icon="face" />
+      </q-card-section>
       <q-card-section>
        <q-form @submit="onSubmit" @reset="onReset">
           <q-input
@@ -28,7 +32,7 @@
           <q-toggle v-model="accept" label="I accept the license and terms" />
 
           <div class="text-center">
-            <q-btn label="Ingresar" type="submit" color="teal-5" />
+            <q-btn label="Ingresar" type="submit" color="orange-10" />
           </div>
         </q-form>
       </q-card-section>
