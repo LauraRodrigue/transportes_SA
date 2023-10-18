@@ -17,41 +17,45 @@
 
             <q-drawer class="bg-green-1" v-model="leftDrawerOpen" side="left" behavior="mobile" bordered>
                 <div class="q-pa-md q-gutter-sm">
-                    <q-avatar>
-                        <img src="https://cdn.quasar.dev/img/avatar.png">
-                    </q-avatar>
+                    <q-avatar color="orange-10" text-color="white" icon="face" />
                 </div>
                 <div class="q-pa-md q-gutter-sm">
-                    <q-avatar v-for="size in ['md']" :key="size" :size="size" color="primary" text-color="white"
-                        icon="directions" />
-                    <router-link to="/home"><q-btn text-color="black" label="Menu" /></router-link><br>
+                    <h3 style="margin-bottom: 0">Usuario</h3>
+                    <h5 style="margin-bottom: 0">Administrador</h5>
+                </div>
+                <div class="q-pa-md q-gutter-sm" style="font-size: 2em">
+                    <q-icon name="home" />
+                    <router-link to="/home"><q-btn text-color="black" label="Menu"/></router-link><br>
 
-                    <q-avatar v-for="size in ['md']" :key="size" :size="size" color="primary" text-color="white"
-                        icon="directions" />
+                    <q-icon>
+                        <img src="https://cdn-icons-png.flaticon.com/128/846/846047.png">
+                    </q-icon>
                     <router-link to="/billete"><q-btn text-color="black" label="boletos" /></router-link><br>
 
-                    <q-avatar v-for="size in ['md']" :key="size" :size="size" color="primary" text-color="white"
-                        icon="directions" />
+                    <q-icon>
+                        <img src="https://cdn-icons-png.flaticon.com/128/2554/2554966.png">
+                    </q-icon>
                     <router-link to="/buses"><q-btn text-color="black" label="buses" /></router-link><br>
 
-                    <q-avatar v-for="size in ['md']" :key="size" :size="size" color="primary" text-color="white"
-                        icon="directions" />
+                    <q-icon name="person" />
                     <router-link to="/cliente"><q-btn text-color="black" label="clientes" /></router-link><br>
                 
-                    <q-avatar v-for="size in ['md']" :key="size" :size="size" color="primary" text-color="white"
-                        icon="directions" />
+                    <q-icon>
+                        <img src="https://cdn-icons-png.flaticon.com/128/5283/5283024.png">
+                    </q-icon>
                     <router-link to="/conductor"><q-btn text-color="black" label="conductores" /></router-link><br>
 
-                    <q-avatar v-for="size in ['md']" :key="size" :size="size" color="primary" text-color="white"
-                        icon="directions" />
+                    <q-icon name="today" />
                     <router-link to="/horario"><q-btn text-color="black" label="horarios" /></router-link><br>
 
-                    <q-avatar v-for="size in ['md']" :key="size" :size="size" color="primary" text-color="white"
-                        icon="directions" />
+                    <q-icon>
+                        <img src="https://cdn-icons-png.flaticon.com/128/5193/5193890.png">
+                    </q-icon>
                     <router-link to="/ruta"><q-btn text-color="black" label="rutas" /></router-link><br>
 
-                    <q-avatar v-for="size in ['md']" :key="size" :size="size" color="primary" text-color="white"
-                        icon="directions" />
+                    <q-icon>
+                        <img src="https://cdn-icons-png.flaticon.com/128/2127/2127287.png">
+                    </q-icon>
                     <router-link to="/vendedor"><q-btn text-color="black" label="vendedores" /></router-link><br>
                 </div>
 

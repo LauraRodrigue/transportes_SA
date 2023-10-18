@@ -11,7 +11,7 @@
           <q-input
             filled
             v-model="name"
-            label="Nombre"
+            label="Usuario"
             lazy-rules
             :rules="[
               (val) => (val && val.length > 0) || 'Please type something',
